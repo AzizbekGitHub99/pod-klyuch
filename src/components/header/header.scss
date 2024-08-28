@@ -1,0 +1,45 @@
+.header {
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+    .logo {
+      color: white;
+      font-weight: 900;
+      font-size: 32px;
+    }
+    .navigation {
+      display: flex;
+      li {
+        list-style: none;
+        border-right: 1px solid #323232;
+        padding: 0 28px;
+        &:last-child {
+          border: none;
+        }
+        a {
+          display: inline-block;
+          color: var(--white100);
+        }
+        .active {
+          color: var(--white100);
+          position: relative;
+          &::after {
+            content: "";
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+          }
+        }
+      }
+    }
+    .lang {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+  }
+}
