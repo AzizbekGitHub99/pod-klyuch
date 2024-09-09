@@ -1,0 +1,63 @@
+.second-swiper {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  border-radius: 32px;
+  .swiper-slide {
+    border-radius: 32px;
+    background-color: white;
+    padding: 32px;
+    h1{
+      font-size: 32px;
+      font-weight: 500;
+      color: black;
+      text-align: left;
+      margin-top: 40px;
+      margin-bottom: 16px;
+    }
+    p{
+      font-size: 16px;
+      text-align: left;
+      font-weight: 400;
+      color: black;
+    }
+  }
+  .swiper-button-prev {
+    background-image: url("/assets/icons/ArrowLeft.png");
+    left: auto;
+    right: 76px;
+  }
+  .swiper-button-next {
+    background-image: url("/assets/icons/ArrowRight.png");
+    right: 32px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    top: auto;
+    bottom: 56px;
+    border-radius: 50%;
+    border: 1px solid black;
+    // background-color: white;
+    &::after {
+      display: none;
+    }
+  }
+  .swiper-pagination-fraction{
+    color: black;
+    top: 32px;
+    left: 32px;
+    text-align: left;
+    display: flex;
+    gap: .2px;
+    align-items: center;
+    height: 17px;
+    opacity: .6;
+    span{
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+}

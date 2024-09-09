@@ -1,0 +1,29 @@
+.advantages-card {
+  background-color: #131313;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 380px;
+  padding: 32px 25px;
+  &__head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    h2 {
+      font-size: 32px;
+      font-weight: 500;
+    }
+  }
+  &__body {
+    h3 {
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    p {
+      color: var(--white60);
+      font-size: 14px;
+    }
+  }
+}
