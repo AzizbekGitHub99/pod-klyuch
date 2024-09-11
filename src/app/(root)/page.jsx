@@ -301,26 +301,26 @@ export default function Home() {
           <div className="info__container__advantages">
             <h1>Наши преимушества</h1>
             <div className="info__container__advantages__wrapper">
-              <AdvantagesCard/>
-              <AdvantagesCard/>
-              <AdvantagesCard/>
-              <AdvantagesCard/>
+              <AdvantagesCard />
+              <AdvantagesCard />
+              <AdvantagesCard />
+              <AdvantagesCard />
             </div>
           </div>
           <div className="info__container__command">
             <h1>Наша команда</h1>
             <div className="info__container__command__wrapper">
-              <CommandCard/>
-              <CommandCard/>
-              <CommandCard/>
-              <CommandCard/>
+              <CommandCard />
+              <CommandCard />
+              <CommandCard />
+              <CommandCard />
             </div>
           </div>
           <div className="info__container__real">
             <h1>Наши реализованные проекты</h1>
             <div className="info__container__real__wrapper">
-              <SwiperFirst/>
-              <SwiperSecond/>
+              <SwiperFirst />
+              <SwiperSecond />
             </div>
           </div>
         </div>
@@ -328,7 +328,116 @@ export default function Home() {
       <section className="trust">
         <h1>Нам доверяют</h1>
         <div className="trust__wrapper">
-
+          <div className="trust__wrapper__track">
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust1.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust2.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust1.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust2.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust1.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust2.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust1.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust2.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust1.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust2.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust1.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+            <div className="image-box">
+              <Image
+                src="/assets/images/trust2.png"
+                fill
+                priority
+                quality={100}
+                alt="podklyuch"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </Fragment>

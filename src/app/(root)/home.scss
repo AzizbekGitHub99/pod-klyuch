@@ -335,10 +335,40 @@
     }
   }
 }
-.trust{
-  h1{
+.trust {
+  h1 {
     text-align: center;
     font-weight: 500;
     font-size: 48px;
+  }
+  &__wrapper {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    &__track {
+      width: calc(325px * 12);
+      display: flex;
+      animation: scroll 20s linear infinite;
+      .image-box {
+        position: relative;
+        height: 160px;
+        width: 325px;
+        gap: 20px;
+      }
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-325px * 4));
   }
 }
